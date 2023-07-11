@@ -4,3 +4,4 @@ id=PZNS_AgentWong
 description=Project Zomboid NPC Spawning Framework - Agent Wong in Rosewood Fire Department
 url=https://github.com/shadowhunter100/SuperbSurvivorsContinued
 versionMin=41.1
+require=PZNS_Framework
