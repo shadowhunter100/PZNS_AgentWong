@@ -8,6 +8,8 @@ local PZNS_WorldUtils = require("02_mod_utils/PZNS_WorldUtils");
 local PZNS_NPCGroupsManager = require("04_data_management/PZNS_NPCGroupsManager");
 local PZNS_NPCsManager = require("04_data_management/PZNS_NPCsManager");
 
+local PZNS_AgentWongSpeechTable = require("pzns_agentwong/PZNS_AgentWongSpeechTable");
+
 --- Cows: Example of spawning in an NPC. This NPC is "Agent Wong"
 function PZNS_SpawnAgentWong()
     local npcSurvivorID = "PZNS_AgentWong";
@@ -36,6 +38,7 @@ function PZNS_SpawnAgentWong()
             );
             --
             if (npcSurvivor ~= nil) then
+                PZNS_UtilsNPCs.PZNS_SetNPCSpeechTable(npcSurvivor, PZNS_AgentWongSpeechTable); -- Cows: Speech table is OPTIONAL, remove/comment out this line if you don't have custom speech text planned.
                 PZNS_UtilsNPCs.PZNS_AddNPCSurvivorPerkLevel(npcSurvivor, "Strength", 5);
                 PZNS_UtilsNPCs.PZNS_AddNPCSurvivorPerkLevel(npcSurvivor, "Fitness", 5);
                 PZNS_UtilsNPCs.PZNS_AddNPCSurvivorPerkLevel(npcSurvivor, "Aiming", 5);
@@ -50,8 +53,8 @@ function PZNS_SpawnAgentWong()
                     PZNS_UtilsNPCs.PZNS_AddEquipClothingNPCSurvivor(npcSurvivor, "Base.Vest_DefaultTEXTURE");
                     PZNS_UtilsNPCs.PZNS_AddEquipClothingNPCSurvivor(npcSurvivor, "Base.Skirt_Mini");
                     PZNS_UtilsNPCs.PZNS_AddEquipClothingNPCSurvivor(npcSurvivor, "Base.Shoes_ArmyBoots");
-                    PZNS_UtilsNPCs.PZNS_AddItemToInventoryNPCSurvivor(npcSurvivor, "Base.BaseballBat");
                 end
+                PZNS_UtilsNPCs.PZNS_AddItemToInventoryNPCSurvivor(npcSurvivor, "Base.HuntingKnife");
                 PZNS_UtilsNPCs.PZNS_AddEquipWeaponNPCSurvivor(npcSurvivor, "Base.Pistol");
                 -- Cows: Set the job...
                 PZNS_UtilsNPCs.PZNS_SetNPCJob(npcSurvivor, "Guard");

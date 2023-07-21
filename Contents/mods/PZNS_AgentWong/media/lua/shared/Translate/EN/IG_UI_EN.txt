@@ -1,0 +1,23 @@
+IGUI_EN = {
+
+IGUI_PZNS_Speech_AgentWong_Confirm_01 = "A job huh? Sure",
+IGUI_PZNS_Speech_AgentWong_Confirm_02 = "Looks like fun",
+IGUI_PZNS_Speech_AgentWong_Confirm_03 = "Easier said than done",
+
+IGUI_PZNS_Speech_AgentWong_HoldPosition_01 = "Don't keep me waiting long now",
+IGUI_PZNS_Speech_AgentWong_HoldPosition_02 = "I'll play your waiting game...",
+IGUI_PZNS_Speech_AgentWong_HoldPosition_03 = "Hmm... Alright",
+
+IGUI_PZNS_Speech_AgentWong_Follow_01 = "You're right. I'll help you.",
+IGUI_PZNS_Speech_AgentWong_Follow_02 = "Do you need me to save you again?",
+IGUI_PZNS_Speech_AgentWong_Follow_03 = "So cute. It's kind of fun to watch you.",
+
+IGUI_PZNS_Speech_AgentWong_RemoveFromGroup_01 = "Better get a move on. See you around.",
+IGUI_PZNS_Speech_AgentWong_RemoveFromGroup_02 = "See you around...",
+IGUI_PZNS_Speech_AgentWong_RemoveFromGroup_03 = "More games? Try not to regret this later.",
+
+IGUI_PZNS_Speech_AgentWong_JobSpeechIdle_01 = "This is getting tiresome...",
+IGUI_PZNS_Speech_AgentWong_JobSpeechIdle_02 = "Maybe you forgot, but I don't always play by the rules.",
+IGUI_PZNS_Speech_AgentWong_JobSpeechIdle_03 = "Maybe I need to charge an hourly rate for my services...",
+
+}

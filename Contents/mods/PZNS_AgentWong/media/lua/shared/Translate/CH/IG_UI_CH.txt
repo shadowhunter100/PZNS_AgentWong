@@ -1,0 +1,23 @@
+IGUI_CH = {
+
+IGUI_PZNS_Speech_AgentWong_Confirm_01 = "工作啊？好吧",
+IGUI_PZNS_Speech_AgentWong_Confirm_02 = "看來有趣",
+IGUI_PZNS_Speech_AgentWong_Confirm_03 = "說起來容易做起來難",
+
+IGUI_PZNS_Speech_AgentWong_HoldPosition_01 = "別讓我等太久",
+IGUI_PZNS_Speech_AgentWong_HoldPosition_02 = "好，玩你的等待遊戲...,
+IGUI_PZNS_Speech_AgentWong_HoldPosition_03 = "嗯……好吧",
+
+IGUI_PZNS_Speech_AgentWong_Follow_01 = "你沒事吧。我會幫你",
+IGUI_PZNS_Speech_AgentWong_Follow_02 = "又需要我再救你嘛?",
+IGUI_PZNS_Speech_AgentWong_Follow_03 = "太可愛了。看著你很有趣",
+
+IGUI_PZNS_Speech_AgentWong_RemoveFromGroup_01 = "最好繼續前進。再見。",
+IGUI_PZNS_Speech_AgentWong_RemoveFromGroup_02 = "再見",
+IGUI_PZNS_Speech_AgentWong_RemoveFromGroup_03 = "更多遊戲？以後盡量不要後悔",
+
+IGUI_PZNS_Speech_AgentWong_JobSpeechIdle_01 = "這越來越煩人了...",
+IGUI_PZNS_Speech_AgentWong_JobSpeechIdle_02 = "也許你忘記了，但我並不總是遵守規則",
+IGUI_PZNS_Speech_AgentWong_JobSpeechIdle_03 = "也許我需要按小時收費...",
+
+}

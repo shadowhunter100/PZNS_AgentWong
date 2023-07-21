@@ -39,3 +39,6 @@ luac.out
 *.x86_64
 *.hex
 
+Contents/mods/PZNS_AgentWong/media/lua/.vscode/settings.json
+Contents/mods/PZNS_AgentWong/media/lua/.libraries/
+Contents/mods/PZNS_AgentWong/media/lua/.vscode/extensions.json
