@@ -1,4 +1,5 @@
-local PZNS_AgentWongSpeechTable = {};
+-- Cows: SpeechTable is OPTIONAL, if you don't feel like writing custom speech, don't implement it and remove it.
+local PZNS_AgentWongSpeechTable = {}; -- Cows: RENAME THIS VARIABLE AND UPDATE ALL REFERENCES TO IT FOR YOUR NEEDS.
 
 -- Cows: Note that the translation files are all inside the "shared/Translate" folder, specifically referencing the "IG_UI_xx.txt" file.
 PZNS_AgentWongSpeechTable.PZNS_OrderConfirmed = {
